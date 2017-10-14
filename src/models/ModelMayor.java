@@ -49,10 +49,10 @@ public class ModelMayor {
     public void menor(){
         resultado = n1;
         if(n2 < resultado ){
-            n2 = resultado;
+            resultado = n2;
         }
         if(n3 < resultado){
-            n3 = resultado;
+           resultado = n3;
         }
     }
 }

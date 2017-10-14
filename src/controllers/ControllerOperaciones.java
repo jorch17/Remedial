@@ -12,9 +12,9 @@ public class ControllerOperaciones {
         this.view_operaciones = view_operaciones;
         initView();
         view_operaciones.jbtn_suma.addActionListener(event -> jbtn_suma_click());
-        view_operaciones.jbtn_suma.addActionListener(event -> jbtn_resta_click());
-        view_operaciones.jbtn_suma.addActionListener(event -> jbtn_multiplicacion_click());
-        view_operaciones.jbtn_suma.addActionListener(event -> jbtn_division_click());
+        view_operaciones.jbtn_resta.addActionListener(event -> jbtn_resta_click());
+        view_operaciones.jbtn_multiplicacion.addActionListener(event -> jbtn_multiplicacion_click());
+        view_operaciones.jbtn_division.addActionListener(event -> jbtn_division_click());
         
     }
     
