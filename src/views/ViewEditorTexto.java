@@ -28,15 +28,15 @@ public class ViewEditorTexto extends javax.swing.JPanel {
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        jta_archivo = new javax.swing.JTextArea();
         jl_title = new javax.swing.JLabel();
         jbtn_abrir = new javax.swing.JButton();
         jbtn_guardar = new javax.swing.JButton();
         jbtn_salir = new javax.swing.JButton();
 
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane1.setViewportView(jTextArea1);
+        jta_archivo.setColumns(20);
+        jta_archivo.setRows(5);
+        jScrollPane1.setViewportView(jta_archivo);
 
         jl_title.setText("EDITOR DE TEXTO");
 
@@ -79,10 +79,14 @@ public class ViewEditorTexto extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea jTextArea1;
     public javax.swing.JButton jbtn_abrir;
     public javax.swing.JButton jbtn_guardar;
     public javax.swing.JButton jbtn_salir;
     public javax.swing.JLabel jl_title;
+    public javax.swing.JTextArea jta_archivo;
     // End of variables declaration//GEN-END:variables
+
+    public void setTitle(String hhh) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
