@@ -24,6 +24,7 @@ public class ControllerEditorTexto {
         this.view_editortexto = view_editortexto;
         view_editortexto.jbtn_abrir.addActionListener(event -> jbtn_abrir_click());
         view_editortexto.jbtn_guardar.addActionListener(event -> jbtn_guardar_click());
+        view_editortexto.jbtn_salir.addActionListener(event -> jbtn_salir_click());
         
     }
     
@@ -75,7 +76,7 @@ public class ControllerEditorTexto {
     }
     
     public void jbtn_salir_click(){
-        
+        System.exit(0);
     }
 
     
