@@ -77,8 +77,5 @@ public class ControllerEditorTexto {
     
     public void jbtn_salir_click(){
         System.exit(0);
-    }
-
-    
-    
+    }     
 }
