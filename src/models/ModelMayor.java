@@ -39,11 +39,11 @@ public class ModelMayor {
     public void mayor(){
         resultado = n1;
         if(n2 > resultado ){
-            n2 = resultado;
+            resultado = n2;
         }
         if(n3 > resultado){
-            n3 = resultado;
-        }
+           resultado = n3;
+        }  
     }
     
     public void menor(){

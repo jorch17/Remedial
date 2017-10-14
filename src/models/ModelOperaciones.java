@@ -27,19 +27,19 @@ public class ModelOperaciones {
     }
     
     public void suma(){
-        resultado= n1 + n2;
+        resultado = n1 + n2;
     }
     
     public void resta(){
-        resultado= n1 +-n2;
+        resultado = n1 - n2;
     }
     
     public void multiplicacion(){
-        resultado= n1 * n2;
+        resultado = n1 * n2;
     }
     
     public void division(){
-        resultado= n1 / n2;
+        resultado = n1 / n2;
     }
     
 }
